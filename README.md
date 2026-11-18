@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-  <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>
-  Companies use AI to filter candidates. <strong>I just gave candidates AI to <em>choose</em> companies.</strong><br>
-  <em>Now it's open source.</em>
+  <em>An autonomous and supervised job search engineering system for full-stack and backend engineers.</em><br>
+  Companies use automated systems to filter candidates. <strong>Career-Ops gives candidates an automated, verified, and supervised platform to discover, evaluate, and stage applications.</strong><br>
+  <em>Open source · Supervised automation · Zero-fabrication guarantee.</em>
 </p>
 
 <p align="center">
@@ -40,27 +40,25 @@
   <img src="docs/demo.gif" alt="Career-Ops Demo" width="800">
 </p>
 
-<p align="center"><strong>740+ job listings evaluated · 100+ personalized CVs · 1 dream role landed</strong></p>
+<p align="center"><strong>Multi-Source Crawling · Zero-Fabrication Matching · Single-Page LaTeX Tailoring · Supervised ATS Autofill</strong></p>
 
-<p align="center"><a href="https://discord.gg/8pRpHETxa4"><img src="https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a></p>
+## Project Heritage & Extensions
+
+> **Architectural Note:** This repository is an advanced, enterprise-grade extension of the open-source [career-ops](https://github.com/santifer/career-ops) project originally conceived by [Santiago Valdarrama](https://santifer.io).
+>
+> While the upstream project pioneered CLI-based evaluation modes and markdown prompt tracking, this edition—engineered by [Manas Bhardwaj](https://github.com/ManasBhardwaj07)—extends the architecture into a **production-grade, supervised autonomous pipeline** with a multi-source web crawler, canonical SQLite ledger, strict zero-fabrication evidence modeling, authoritative single-page LaTeX compilation, and Playwright-driven ATS portal autofill.
 
 ## What Is This
 
-Career-Ops turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
+Career-Ops transforms job search from manual tracking into an automated, supervised engineering pipeline. It discovers, normalizes, evaluates, tailor-formats, and autofills job applications while maintaining strict safety invariants:
 
-- **Evaluates offers** with a structured A-F scoring system (10 weighted dimensions)
-- **Generates tailored PDFs** -- ATS-optimized CVs customized per job description
-- **Scans portals** automatically (Greenhouse, Ashby, Lever, company pages)
-- **Processes in batch** -- evaluate 10+ offers in parallel with sub-agents
-- **Tracks everything** in a single source of truth with integrity checks
+- **Discovers and crawls postings** across 45+ company career sites and 15+ ATS providers (Ashby, Greenhouse, Lever, Workday, etc.)
+- **Enforces Zero-Fabrication ($R16)** by grounding all matching scores, resume bullets, and form answers strictly in verified candidate evidence
+- **Compiles authoritative 1-page LaTeX resumes** via Tectonic with automated budget validation and ATS link verification
+- **Autofills live ATS application forms** via Playwright with automated resume attachment, capturing screenshots and review packets
+- **Stops safely at review checkpoints** (`READY_FOR_REVIEW` / `NEEDS_USER_INPUT`) with strictly zero unattended submissions
 
-> **Important: This is NOT a spray-and-pray tool.** Career-ops is a filter -- it helps you find the few offers worth your time out of hundreds. The system strongly recommends against applying to anything scoring below 4.0/5. Your time is valuable, and so is the recruiter's. Always review before submitting.
-
-Career-ops is agentic: Claude Code navigates career pages with Playwright, evaluates fit by reasoning about your CV vs the job description (not keyword matching), and adapts your resume per listing.
-
-> **Heads up: the first evaluations won't be great.** The system doesn't know you yet. Feed it context -- your CV, your career story, your proof points, your preferences, what you're good at, what you want to avoid. The more you nurture it, the better it gets. Think of it as onboarding a new recruiter: the first week they need to learn about you, then they become invaluable.
-
-Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored CVs, and land a Head of Applied AI role. [Read the full case study](https://santifer.io/career-ops-system).
+> **Important: This is NOT a spray-and-pray tool.** Career-Ops is an precision engineering filter. It evaluates fit by reasoning about verified facts against job requirements (not shallow keyword matching) and enforces human checkpoints before any submission can proceed.
 
 ## Features
 
@@ -274,15 +272,25 @@ career-ops/
 - **Dashboard**: Go + Bubble Tea + Lipgloss (Catppuccin Mocha theme)
 - **Data**: Markdown tables + YAML config + TSV batch files
 
-## Also Open Source
+## Architecture & Engineering Extensions
 
-- **[cv-santiago](https://github.com/santifer/cv-santiago)** -- The portfolio website (santifer.io) with AI chatbot, LLMOps dashboard, and case studies. If you need a portfolio to showcase alongside your job search, fork it and make it yours.
+This edition of Career-Ops is engineered by **[Manas Bhardwaj](https://github.com/ManasBhardwaj07)** as a full-stack, distributed job discovery and supervised automation platform:
 
-## About the Author
+- **Automated ATS Workflow Engine**: Playwright browser driver supporting Chrome & Microsoft Edge with DOM inspection, field classification, resume attachment, and human approval checkpoints.
+- **Multi-Source Web Crawler**: Robots.txt-compliant crawler scanning company career portals, Greenhouse, Lever, Ashby, Workday, SmartRecruiters, and public engineering feeds.
+- **Canonical Employer Registry**: 950+ employer records with automated alias resolution and deduplication.
+- **Evidence-Based Job Fit & Anti-Fabrication ($R16)**: Deterministic requirement matching strictly grounded in candidate facts, rejecting false claims and unverified metrics.
+- **Authoritative LaTeX Resume Tailoring Engine**: Real-time bullet and project tailoring compiled via Tectonic XeTeX engine within strict 1-page constraints.
+- **Transactional SQLite Database Ledger**: WAL journal mode, background worker leases, quota enforcement, and atomic state synchronization.
 
-I'm Santiago -- Head of Applied AI, former founder (built and sold a business that still runs with my name on it). I built career-ops to manage my own job search. It worked: I used it to land my current role.
+### Original Foundation & Concept
+- **Original Concept & CLI Framework**: [Santiago Valdarrama](https://santifer.io) ([santifer/career-ops](https://github.com/santifer/career-ops)).
+- Upstream Case Study: [santifer.io/career-ops-system](https://santifer.io/career-ops-system).
 
-My portfolio and other open source projects → [santifer.io](https://santifer.io)
+## Author & Connect
+
+- **GitHub**: [@ManasBhardwaj07](https://github.com/ManasBhardwaj07)
+- **Repository**: [ManasBhardwaj07/career-ops](https://github.com/ManasBhardwaj07/career-ops)
 
 ## Star History
 
