@@ -1,0 +1,46 @@
+{
+  "sources": {
+    "jobspy": {
+      "consecutiveZeroCount": 0,
+      "totalRuns": 6,
+      "quarantined": false,
+      "quarantineReason": null,
+      "quarantinedAt": null,
+      "lastRunAt": "2026-11-14T18:33:33.782Z",
+      "lastJobsFound": 2,
+      "lastError": null,
+      "consecutiveOperationalFailures": 0,
+      "consecutiveEmptyRuns": 0
+    },
+    "hirist": {
+      "consecutiveOperationalFailures": 1,
+      "consecutiveEmptyRuns": 0,
+      "totalRuns": 1,
+      "quarantined": false,
+      "quarantineReason": null,
+      "quarantinedAt": null,
+      "lastRunAt": "2026-11-15T08:24:00.671Z",
+      "lastJobsFound": 0,
+      "lastError": "HTTP 404: Not Found",
+      "lastErrorType": "UNKNOWN",
+      "retryAfterMs": 1794731160671,
+      "retired": false,
+      "retirementReason": null
+    },
+    "internshala": {
+      "consecutiveOperationalFailures": 1,
+      "consecutiveEmptyRuns": 0,
+      "totalRuns": 1,
+      "quarantined": false,
+      "quarantineReason": null,
+      "quarantinedAt": null,
+      "lastRunAt": "2026-11-15T08:24:01.936Z",
+      "lastJobsFound": 0,
+      "lastError": "HTTP 500: Internal Server Error",
+      "lastErrorType": "HTTP_5XX",
+      "retryAfterMs": 1794731161936,
+      "retired": false,
+      "retirementReason": null
+    }
+  }
+}

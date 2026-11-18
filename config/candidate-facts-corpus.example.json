@@ -1,0 +1,68 @@
+{
+  "name": "[Your Full Name]",
+  "degrees": [
+    "Bachelor of Science in Computer Science"
+  ],
+  "university": "[Your University / College Name]",
+  "cgpa": "[Your GPA or Percentage]",
+  "companies": [
+    "[Company A]",
+    "[Company B]"
+  ],
+  "allowedMetrics": [
+    "[Allowed Metric 1: e.g. 50% latency reduction]",
+    "[Allowed Metric 2: e.g. 10,000+ daily active users]",
+    "[Allowed Metric 3: e.g. 99.9% uptime]"
+  ],
+  "forbiddenClaims": [
+    "Google",
+    "Meta",
+    "Amazon",
+    "Microsoft",
+    "Apple",
+    "Netflix",
+    "Director",
+    "VP",
+    "Principal Engineer",
+    "PhD"
+  ],
+  "skillsPool": {
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "Python"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST APIs"
+    ],
+    "frontend": [
+      "React",
+      "HTML5",
+      "CSS3"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "Redis"
+    ],
+    "devops": [
+      "Docker",
+      "Git",
+      "CI/CD"
+    ]
+  },
+  "projects": {
+    "example_project": {
+      "title": "[Example Project Title]",
+      "tech": "[Technologies Used, e.g. TypeScript, Node.js, PostgreSQL]",
+      "date": "[Start Date -- End Date]",
+      "liveDemoUrl": "https://example.com/demo",
+      "sourceUrl": "https://github.com/example/project",
+      "allowedBullets": [
+        "[Action verb] [what you designed/built] using [technologies] resulting in [quantifiable outcome].",
+        "[Action verb] [technical improvement or architecture pattern] achieving [performance/reliability metric]."
+      ]
+    }
+  }
+}

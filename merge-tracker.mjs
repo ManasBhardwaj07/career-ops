@@ -18,6 +18,8 @@ import { readFileSync, writeFileSync, readdirSync, mkdirSync, renameSync, exists
 import { join, basename, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { execFileSync } from 'child_process';
+import { exportApplicationsMarkdown } from './tracking/export-tracker.mjs';
+import { reconcileBatchAdditions } from './tracking/reconcile-history.mjs';
 
 const CAREER_OPS = dirname(fileURLToPath(import.meta.url));
 // Support both layouts: data/applications.md (boilerplate) and applications.md (original)
@@ -351,16 +353,21 @@ if (newLines.length > 0) {
   }
 }
 
-// Write back
+// Write back (Milestone 3E: Authoritative SQLite updates and markdown projection)
 if (!DRY_RUN) {
-  writeFileSync(APPS_FILE, appLines.join('\n'));
+  // Reconcile pending TSVs into SQLite ledger and canonical tables
+  reconcileBatchAdditions(ADDITIONS_DIR);
+
+  // Regenerate applications.md projection from authoritative SQLite
+  exportApplicationsMarkdown({ outputPath: APPS_FILE, writeDisk: true });
 
   // Move processed files to merged/
   if (!existsSync(MERGED_DIR)) mkdirSync(MERGED_DIR, { recursive: true });
   for (const file of tsvFiles) {
     renameSync(join(ADDITIONS_DIR, file), join(MERGED_DIR, file));
   }
-  console.log(`\n✅ Moved ${tsvFiles.length} TSVs to merged/`);
+  console.log(`\n✅ Merged into SQLite & regenerated ${APPS_FILE}`);
+  console.log(`✅ Moved ${tsvFiles.length} TSVs to merged/`);
 }
 
 console.log(`\n📊 Summary: +${added} added, 🔄${updated} updated, ⏭️${skipped} skipped`);

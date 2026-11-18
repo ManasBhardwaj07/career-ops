@@ -1,0 +1,228 @@
+# Career-Ops Canonical Autofill Profile Template
+# Copy this file to config/autofill-profile.yml and populate with your verified details.
+# Governed by docs/AUTOFILL-SCHEMA.md
+
+version: "1.0.1"
+candidate_id: "cand_example_user"
+
+# ── 1. IDENTITY ──────────────────────────────────────────────────────────────
+identity:
+  first_name:
+    value: "Alex"
+    verified: true
+  middle_name:
+    value: ""
+    verified: true
+  last_name:
+    value: "Doe"
+    verified: true
+  full_name:
+    value: "Alex Doe"
+    verified: true
+  email:
+    value: "alex.doe@example.com"
+    verified: true
+  phone:
+    value: "+1-555-0100"
+    verified: true
+  phone_country_code:
+    value: "+1"
+    verified: true
+  current_city:
+    value: "San Francisco"
+    verified: true
+  current_state:
+    value: "California"
+    verified: true
+  current_country:
+    value: "United States"
+    verified: true
+  postal_code:
+    value: "94105"
+    verified: true
+  address_line1:
+    value: "100 Market Street"
+    verified: true
+  address_line2:
+    value: "Suite 300"
+    verified: true
+
+# ── 2. WEB PRESENCE & LINKS ──────────────────────────────────────────────────
+links:
+  linkedin_url:
+    value: "https://linkedin.com/in/alex-doe"
+    verified: true
+  github_url:
+    value: "https://github.com/alexdoe"
+    verified: true
+  portfolio_url:
+    value: "https://alexdoe.example.com"
+    verified: true
+  twitter_url:
+    value: "https://x.com/alexdoe"
+    verified: false
+
+# ── 3. EDUCATION ─────────────────────────────────────────────────────────────
+education:
+  highest_degree_level:
+    value: "Bachelor's"
+    verified: true
+
+  college_name:
+    value: "State University"
+    verified: true
+  college_degree:
+    value: "Bachelor of Science"
+    verified: true
+  college_major:
+    value: "Computer Science"
+    verified: true
+  college_cgpa:
+    value: 3.8
+    verified: true
+  college_start_year:
+    value: 2020
+    verified: true
+  college_graduation_year:
+    value: 2024
+    verified: true
+  college_graduation_month:
+    value: "May"
+    verified: true
+
+# ── 4. EXPERIENCE & SKILLS ───────────────────────────────────────────────────
+experience:
+  total_experience_months:
+    value: 24
+    verified: true
+  total_experience_years:
+    value: 2.0
+    verified: true
+
+  current_job_title:
+    value: "Software Engineer"
+    verified: true
+  current_company:
+    value: "Tech Innovations Inc"
+    verified: true
+
+  primary_role_archetype:
+    value: "Full Stack Developer"
+    verified: true
+
+  primary_languages:
+    value:
+      - "TypeScript"
+      - "JavaScript (ES6+)"
+      - "Python"
+      - "SQL"
+    verified: true
+
+  backend_technologies:
+    value:
+      - "Node.js"
+      - "Express.js"
+      - "REST APIs"
+      - "PostgreSQL"
+      - "Redis"
+    verified: true
+
+  frontend_technologies:
+    value:
+      - "React"
+      - "Next.js"
+      - "Tailwind CSS"
+      - "HTML5"
+      - "CSS3"
+    verified: true
+
+  devops_technologies:
+    value:
+      - "Docker"
+      - "GitHub Actions"
+      - "AWS"
+      - "Git"
+    verified: true
+
+  roles_history:
+    - company: "Tech Innovations Inc"
+      title: "Software Engineer"
+      type: "Remote"
+      start_date: "2024-06"
+      end_date: "Present"
+      verified: true
+
+    - company: "Digital Labs"
+      title: "Software Engineering Intern"
+      type: "Hybrid"
+      start_date: "2023-05"
+      end_date: "2023-08"
+      verified: true
+
+  featured_projects:
+    - name: "CloudGate"
+      domain: "Distributed API Gateway"
+      tech_stack: "TypeScript, Node.js, Express, Redis, PostgreSQL, Docker"
+      verified: true
+
+    - name: "TaskSync"
+      domain: "Real-time Collaboration Platform"
+      tech_stack: "React, Next.js, WebSockets, Tailwind CSS, PostgreSQL"
+      verified: true
+
+# ── 5. COMPENSATION & AVAILABILITY ───────────────────────────────────────────
+compensation:
+  current_ctc_lpa:
+    value: null
+    verified: false
+    is_sensitive: true
+  expected_ctc_lpa:
+    value: null
+    verified: false
+    is_sensitive: true
+  minimum_ctc_lpa:
+    value: null
+    verified: false
+    is_sensitive: true
+  notice_period_days:
+    value: 0
+    verified: true
+  notice_period_negotiable:
+    value: true
+    verified: true
+  actively_serving_notice:
+    value: false
+    verified: true
+
+# ── 6. PREFERENCES & LOCATION ────────────────────────────────────────────────
+preferences:
+  open_to_relocation:
+    value: true
+    verified: true
+  preferred_locations:
+    value:
+      - "Remote"
+      - "San Francisco, CA"
+      - "New York, NY"
+    verified: true
+  work_authorization_us:
+    value: "Citizen"
+    verified: true
+  requires_sponsorship_us:
+    value: false
+    verified: true
+
+# ── 7. DEMOGRAPHICS & EEO (OPTIONAL / SENSITIVE) ─────────────────────────────
+demographics:
+  gender:
+    value: "Decline to state"
+    verified: true
+    is_sensitive: true
+  veteran_status:
+    value: "I am not a protected veteran"
+    verified: true
+    is_sensitive: true
+  disability_status:
+    value: "I do not have a disability"
+    verified: true
+    is_sensitive: true

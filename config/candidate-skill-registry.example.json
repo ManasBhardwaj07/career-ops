@@ -1,0 +1,159 @@
+[
+  {
+    "canonical": "TypeScript",
+    "category": "languages",
+    "aliases": [
+      {
+        "pattern": "\\b(typescript|ts)\\b",
+        "flags": "i"
+      }
+    ],
+    "classification": "VERIFIED",
+    "proficiency": "advanced",
+    "transferableTo": [
+      "JavaScript",
+      "typed languages"
+    ],
+    "evidenceSources": [
+      {
+        "type": "project",
+        "title": "[Example Project Title]",
+        "entity": "[Example Project Name]",
+        "reference": "cv.md:PROJECTS:[Example Project]:bullet-1",
+        "description": "[Describe how you demonstrated TypeScript in this project.]"
+      },
+      {
+        "type": "work_experience",
+        "title": "[Example Role / Team]",
+        "entity": "[Example Company Name]",
+        "reference": "cv.md:EXPERIENCE:[Example Company]:bullet-1",
+        "description": "[Describe how you demonstrated TypeScript in this role.]"
+      }
+    ],
+    "lastVerifiedDate": "2026-01-01"
+  },
+  {
+    "canonical": "JavaScript",
+    "category": "languages",
+    "aliases": [
+      {
+        "pattern": "\\b(javascript|js|es6|ecmascript)\\b",
+        "flags": "i"
+      }
+    ],
+    "classification": "VERIFIED",
+    "proficiency": "advanced",
+    "transferableTo": [
+      "TypeScript",
+      "scripting"
+    ],
+    "evidenceSources": [
+      {
+        "type": "work_experience",
+        "title": "[Example Role / Team]",
+        "entity": "[Example Company Name]",
+        "reference": "cv.md:EXPERIENCE:[Example Company]:bullet-1",
+        "description": "[Describe how you demonstrated JavaScript in this role.]"
+      }
+    ],
+    "lastVerifiedDate": "2026-01-01"
+  },
+  {
+    "canonical": "Node.js",
+    "category": "backend",
+    "aliases": [
+      {
+        "pattern": "\\b(node\\.?js|node)\\b",
+        "flags": "i"
+      }
+    ],
+    "classification": "VERIFIED",
+    "proficiency": "advanced",
+    "transferableTo": [
+      "server-side runtimes"
+    ],
+    "evidenceSources": [
+      {
+        "type": "project",
+        "title": "[Example Project Title]",
+        "entity": "[Example Project Name]",
+        "reference": "cv.md:PROJECTS:[Example Project]:bullet-1",
+        "description": "[Describe backend services built in Node.js.]"
+      }
+    ],
+    "lastVerifiedDate": "2026-01-01"
+  },
+  {
+    "canonical": "Docker",
+    "category": "devops",
+    "aliases": [
+      {
+        "pattern": "\\b(docker|containers?)\\b",
+        "flags": "i"
+      }
+    ],
+    "classification": "VERIFIED",
+    "proficiency": "intermediate",
+    "transferableTo": [
+      "container runtimes"
+    ],
+    "evidenceSources": [
+      {
+        "type": "project",
+        "title": "[Example Project Title]",
+        "entity": "[Example Project Name]",
+        "reference": "cv.md:PROJECTS:[Example Project]:bullet-2",
+        "description": "[Describe containerization workloads in Docker.]"
+      }
+    ],
+    "lastVerifiedDate": "2026-01-01"
+  },
+  {
+    "canonical": "Python",
+    "category": "languages",
+    "aliases": [
+      {
+        "pattern": "\\b(python|django|flask)\\b",
+        "flags": "i"
+      }
+    ],
+    "classification": "UNVERIFIED",
+    "proficiency": "none",
+    "transferableFrom": [
+      "Node.js"
+    ],
+    "evidenceSources": [],
+    "lastVerifiedDate": null
+  },
+  {
+    "canonical": "Kubernetes",
+    "category": "devops",
+    "aliases": [
+      {
+        "pattern": "\\b(kubernetes|k8s)\\b",
+        "flags": "i"
+      }
+    ],
+    "classification": "LEARNING",
+    "proficiency": "beginner",
+    "transferableFrom": [
+      "Docker"
+    ],
+    "evidenceSources": [],
+    "lastVerifiedDate": null
+  },
+  {
+    "canonical": "Embedded Firmware",
+    "category": "hardware",
+    "aliases": [
+      {
+        "pattern": "\\b(firmware|microcontroller)\\b",
+        "flags": "i"
+      }
+    ],
+    "classification": "EXPLICITLY_DISCLAIMED",
+    "proficiency": "none",
+    "evidenceSources": [],
+    "lastVerifiedDate": null
+  }
+]

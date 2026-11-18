@@ -1,0 +1,3381 @@
+[
+  {
+    "id": "company-tcs",
+    "name": "Tata Consultancy Services",
+    "domain": "tcs.com",
+    "career_url": "https://ibegin.tcs.com/iBegin/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "waf_gated",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.659Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "TCS",
+      "Tata Consultancy Services Limited"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-infosys",
+    "name": "Infosys",
+    "domain": "infosys.com",
+    "career_url": "https://career.infosys.com/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Infosys Limited",
+      "Infosys BPM"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-wipro",
+    "name": "Wipro",
+    "domain": "wipro.com",
+    "career_url": "https://careers.wipro.com/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Wipro Limited",
+      "Wipro Technologies"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-hcltech",
+    "name": "HCLTech",
+    "domain": "hcltech.com",
+    "career_url": "https://www.hcltech.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "HCL Technologies",
+      "HCL",
+      "HCLTech India"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-tech-mahindra",
+    "name": "Tech Mahindra",
+    "domain": "techmahindra.com",
+    "career_url": "https://careers.techmahindra.com/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Tech Mahindra Limited",
+      "TechM"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-ltimindtree",
+    "name": "LTIMindtree",
+    "domain": "ltimindtree.com",
+    "career_url": "https://www.ltimindtree.com/careers/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "LTI",
+      "Mindtree",
+      "Larsen & Toubro Infotech"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-mphasis",
+    "name": "Mphasis",
+    "domain": "mphasis.com",
+    "career_url": "https://careers.mphasis.com/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Europe"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Mphasis Limited"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-persistent",
+    "name": "Persistent Systems",
+    "domain": "persistent.com",
+    "career_url": "https://www.persistent.com/careers/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Persistent"
+    ],
+    "industry": "Software & Technology Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-coforge",
+    "name": "Coforge",
+    "domain": "coforge.com",
+    "career_url": "https://www.coforge.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Europe"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "NIIT Technologies"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-hexaware",
+    "name": "Hexaware Technologies",
+    "domain": "hexaware.com",
+    "career_url": "https://jobs.hexaware.com/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Europe"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Hexaware"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-zensar",
+    "name": "Zensar Technologies",
+    "domain": "zensar.com",
+    "career_url": "https://www.zensar.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "US",
+      "UK"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Zensar"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-birlasoft",
+    "name": "Birlasoft",
+    "domain": "birlasoft.com",
+    "career_url": "https://www.birlasoft.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Europe"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "KPIT Birlasoft"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-kpit",
+    "name": "KPIT Technologies",
+    "domain": "kpit.com",
+    "career_url": "https://www.kpit.com/careers/",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Germany",
+      "US",
+      "Japan"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "KPIT"
+    ],
+    "industry": "Automotive Software & Mobility",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-ust",
+    "name": "UST",
+    "domain": "ust.com",
+    "career_url": "https://www.ust.com/en/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Europe"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "UST Global"
+    ],
+    "industry": "Digital Transformation & IT Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-nagarro",
+    "name": "Nagarro",
+    "domain": "nagarro.com",
+    "career_url": "https://www.nagarro.com/en/careers",
+    "country": "DE",
+    "hiring_regions": [
+      "India",
+      "Germany",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "smartrecruiters",
+    "board_identifier": "Nagarro",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Nagarro SE"
+    ],
+    "industry": "Digital Engineering & Tech Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-genpact",
+    "name": "Genpact",
+    "domain": "genpact.com",
+    "career_url": "https://www.genpact.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Genpact India"
+    ],
+    "industry": "Professional Services & IT",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-exl",
+    "name": "EXL Service",
+    "domain": "exlservice.com",
+    "career_url": "https://www.exlservice.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "US",
+      "UK"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "EXL"
+    ],
+    "industry": "Analytics & Operations",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-accenture",
+    "name": "Accenture",
+    "domain": "accenture.com",
+    "career_url": "https://www.accenture.com/in-en/careers",
+    "country": "IE",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Accenture India",
+      "Accenture Solutions"
+    ],
+    "industry": "Management Consulting & IT Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-ibm",
+    "name": "IBM",
+    "domain": "ibm.com",
+    "career_url": "https://www.ibm.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "International Business Machines",
+      "IBM India"
+    ],
+    "industry": "Enterprise Technology & Cloud",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-dxc",
+    "name": "DXC Technology",
+    "domain": "dxc.com",
+    "career_url": "https://dxc.com/us/en/careers",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "dxc:careers",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "DXC"
+    ],
+    "industry": "IT Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-ntt-data",
+    "name": "NTT DATA",
+    "domain": "nttdata.com",
+    "career_url": "https://www.nttdata.com/global/en/careers",
+    "country": "JP",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "NTT Data Services"
+    ],
+    "industry": "IT Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-cgi",
+    "name": "CGI",
+    "domain": "cgi.com",
+    "career_url": "https://www.cgi.com/en/careers",
+    "country": "CA",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "CGI Group"
+    ],
+    "industry": "IT Services & Consulting",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-deloitte",
+    "name": "Deloitte",
+    "domain": "deloitte.com",
+    "career_url": "https://jobsindia.deloitte.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "taleo",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Deloitte USI",
+      "Deloitte India"
+    ],
+    "industry": "Management Consulting & Advisory",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-ey",
+    "name": "EY",
+    "domain": "ey.com",
+    "career_url": "https://www.ey.com/en_in/careers",
+    "country": "GB",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Ernst & Young",
+      "EY GDS"
+    ],
+    "industry": "Professional Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-pwc",
+    "name": "PwC",
+    "domain": "pwc.in",
+    "career_url": "https://www.pwc.in/careers.html",
+    "country": "GB",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "pwc:careers",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "PricewaterhouseCoopers",
+      "PwC India",
+      "PwC SDC"
+    ],
+    "industry": "Professional Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-kpmg",
+    "name": "KPMG",
+    "domain": "kpmg.com",
+    "career_url": "https://kpmg.com/in/en/home/careers.html",
+    "country": "NL",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "KPMG India",
+      "KGS"
+    ],
+    "industry": "Professional Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-epam",
+    "name": "EPAM Systems",
+    "domain": "epam.com",
+    "career_url": "https://www.epam.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "EPAM"
+    ],
+    "industry": "Software Engineering Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-globant",
+    "name": "Globant",
+    "domain": "globant.com",
+    "career_url": "https://www.globant.com/careers",
+    "country": "AR",
+    "hiring_regions": [
+      "India",
+      "Latin America",
+      "US",
+      "Europe"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Globant India"
+    ],
+    "industry": "Digital Transformation & Software",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-thoughtworks",
+    "name": "Thoughtworks",
+    "domain": "thoughtworks.com",
+    "career_url": "https://job-boards.greenhouse.io/thoughtworks",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "thoughtworks",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "ThoughtWorks Technologies"
+    ],
+    "industry": "Software Consultancy",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-publicis-sapient",
+    "name": "Publicis Sapient",
+    "domain": "publicissapient.com",
+    "career_url": "https://careers.publicissapient.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "smartrecruiters",
+    "board_identifier": "PublicisSapient",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Sapient",
+      "Sapient Consulting"
+    ],
+    "industry": "Digital Business Transformation",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-microsoft",
+    "name": "Microsoft",
+    "domain": "microsoft.com",
+    "career_url": "https://careers.microsoft.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Microsoft India",
+      "Microsoft IDC"
+    ],
+    "industry": "Software & Cloud Computing",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-amazon",
+    "name": "Amazon",
+    "domain": "amazon.jobs",
+    "career_url": "https://www.amazon.jobs",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "amazon_jobs",
+    "board_identifier": "amazon",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Amazon.com",
+      "Amazon Development Centre India"
+    ],
+    "industry": "E-commerce & Cloud Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-aws",
+    "name": "Amazon Web Services",
+    "domain": "aws.amazon.com",
+    "career_url": "https://www.amazon.jobs/en/business_categories/amazon-web-services",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "amazon_jobs",
+    "board_identifier": "aws",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "AWS",
+      "AWS India"
+    ],
+    "industry": "Cloud Infrastructure & AI",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-google",
+    "name": "Google",
+    "domain": "google.com",
+    "career_url": "https://www.google.com/about/careers/applications/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Alphabet",
+      "Google India"
+    ],
+    "industry": "Search, Cloud & AI",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-cisco",
+    "name": "Cisco Systems",
+    "domain": "cisco.com",
+    "career_url": "https://jobs.cisco.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "avature",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Cisco",
+      "Cisco India"
+    ],
+    "industry": "Networking & Security",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-oracle",
+    "name": "Oracle",
+    "domain": "oracle.com",
+    "career_url": "https://www.oracle.com/careers/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "oracle_cloud",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Oracle India",
+      "Oracle Financial Services"
+    ],
+    "industry": "Enterprise Software & Database",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-sap",
+    "name": "SAP",
+    "domain": "sap.com",
+    "career_url": "https://jobs.sap.com/",
+    "country": "DE",
+    "hiring_regions": [
+      "India",
+      "Germany",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "SAP Labs India",
+      "SAP SE"
+    ],
+    "industry": "Enterprise Software (ERP)",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-salesforce",
+    "name": "Salesforce",
+    "domain": "salesforce.com",
+    "career_url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "salesforce:External_Career_Site",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Salesforce India"
+    ],
+    "industry": "Cloud Software & CRM",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-servicenow",
+    "name": "ServiceNow",
+    "domain": "servicenow.com",
+    "career_url": "https://careers.servicenow.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "smartrecruiters",
+    "board_identifier": "ServiceNow",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "ServiceNow India"
+    ],
+    "industry": "Cloud Platform & Workflow Automation",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-adobe",
+    "name": "Adobe",
+    "domain": "adobe.com",
+    "career_url": "https://adobe.wd5.myworkdayjobs.com/external_experienced",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "adobe:external_experienced",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Adobe Systems India"
+    ],
+    "industry": "Creative Software & Cloud",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-redhat",
+    "name": "Red Hat",
+    "domain": "redhat.com",
+    "career_url": "https://www.redhat.com/en/jobs",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Red Hat India"
+    ],
+    "industry": "Open Source Software & Linux",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-atlassian",
+    "name": "Atlassian",
+    "domain": "atlassian.com",
+    "career_url": "https://jobs.lever.co/atlassian",
+    "country": "AU",
+    "hiring_regions": [
+      "India",
+      "Remote",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "atlassian",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Atlassian India"
+    ],
+    "industry": "Collaboration Software & DevOps",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-broadcom",
+    "name": "Broadcom / VMware",
+    "domain": "broadcom.com",
+    "career_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "broadcom:External_Career",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "VMware",
+      "Broadcom Inc"
+    ],
+    "industry": "Semiconductors & Infrastructure Software",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-intel",
+    "name": "Intel",
+    "domain": "intel.com",
+    "career_url": "https://jobs.intel.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "intel:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Intel Technology India"
+    ],
+    "industry": "Semiconductors",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-nvidia",
+    "name": "NVIDIA",
+    "domain": "nvidia.com",
+    "career_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "nvidia:NVIDIAExternalCareerSite",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Nvidia India"
+    ],
+    "industry": "Semiconductors & AI Hardware",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-amd",
+    "name": "AMD",
+    "domain": "amd.com",
+    "career_url": "https://careers.amd.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Advanced Micro Devices",
+      "AMD India"
+    ],
+    "industry": "Semiconductors",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-qualcomm",
+    "name": "Qualcomm",
+    "domain": "qualcomm.com",
+    "career_url": "https://qualcomm.wd5.myworkdayjobs.com/External",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "qualcomm:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Qualcomm India"
+    ],
+    "industry": "Wireless Telecommunications & Chips",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-dell",
+    "name": "Dell Technologies",
+    "domain": "dell.com",
+    "career_url": "https://jobs.dell.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "dell:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Dell India"
+    ],
+    "industry": "Computer Hardware & Enterprise Systems",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-hp",
+    "name": "HP Inc",
+    "domain": "hp.com",
+    "career_url": "https://jobs.hp.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "hp:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Hewlett-Packard"
+    ],
+    "industry": "Computer Hardware & Imaging",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-ericsson",
+    "name": "Ericsson",
+    "domain": "ericsson.com",
+    "career_url": "https://jobs.ericsson.com/",
+    "country": "SE",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Ericsson India"
+    ],
+    "industry": "Telecommunications & 5G",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-nokia",
+    "name": "Nokia",
+    "domain": "nokia.com",
+    "career_url": "https://www.nokia.com/about-us/careers/",
+    "country": "FI",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "taleo",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Nokia Networks"
+    ],
+    "industry": "Telecommunications Equipment",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-siemens",
+    "name": "Siemens",
+    "domain": "siemens.com",
+    "career_url": "https://jobs.siemens.com/",
+    "country": "DE",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Siemens Technology India",
+      "Siemens Healthineers"
+    ],
+    "industry": "Industrial Automation & HealthTech",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-bosch",
+    "name": "Bosch",
+    "domain": "bosch.in",
+    "career_url": "https://www.bosch.in/careers/",
+    "country": "DE",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "smartrecruiters",
+    "board_identifier": "BoschGroup",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Robert Bosch",
+      "BGSW",
+      "Bosch Global Software"
+    ],
+    "industry": "Automotive & Industrial Tech",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-honeywell",
+    "name": "Honeywell",
+    "domain": "honeywell.com",
+    "career_url": "https://careers.honeywell.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "honeywell:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Honeywell Technology Solutions"
+    ],
+    "industry": "Industrial Software & Aerospace",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-ge",
+    "name": "General Electric",
+    "domain": "ge.com",
+    "career_url": "https://jobs.gecareers.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "ge:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "GE Aerospace",
+      "GE Vernova",
+      "GE India"
+    ],
+    "industry": "Aviation & Energy Infrastructure",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-jpmorgan",
+    "name": "JPMorgan Chase",
+    "domain": "jpmorganchase.com",
+    "career_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "oracle_cloud",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "J.P. Morgan",
+      "JPMorgan Chase & Co."
+    ],
+    "industry": "Investment Banking & Financial Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-goldman-sachs",
+    "name": "Goldman Sachs",
+    "domain": "goldmansachs.com",
+    "career_url": "https://www.goldmansachs.com/careers/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Goldman Sachs India"
+    ],
+    "industry": "Investment Banking & Securities",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-morgan-stanley",
+    "name": "Morgan Stanley",
+    "domain": "morganstanley.com",
+    "career_url": "https://www.morganstanley.com/about-us/careers",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Morgan Stanley India"
+    ],
+    "industry": "Investment Banking & Wealth Management",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-barclays",
+    "name": "Barclays",
+    "domain": "barclays.com",
+    "career_url": "https://search.jobs.barclays/",
+    "country": "GB",
+    "hiring_regions": [
+      "India",
+      "UK",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "successfactors",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Barclays Bank",
+      "Barclays Global Service Centre"
+    ],
+    "industry": "Banking & Financial Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-hsbc",
+    "name": "HSBC",
+    "domain": "hsbc.com",
+    "career_url": "https://www.hsbc.com/careers",
+    "country": "GB",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "HSBC Software Development India"
+    ],
+    "industry": "Banking & Financial Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-citi",
+    "name": "Citi",
+    "domain": "citi.com",
+    "career_url": "https://jobs.citi.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "citi:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Citigroup",
+      "Citibank India"
+    ],
+    "industry": "Banking & Financial Services",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-visa",
+    "name": "Visa",
+    "domain": "visa.com",
+    "career_url": "https://corporate.visa.com/en/careers.html",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "smartrecruiters",
+    "board_identifier": "Visa",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Visa Inc"
+    ],
+    "industry": "Digital Payments",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-mastercard",
+    "name": "Mastercard",
+    "domain": "mastercard.com",
+    "career_url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "mastercard:CorporateCareers",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Mastercard India"
+    ],
+    "industry": "Digital Payments & Fintech",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-fis",
+    "name": "FIS",
+    "domain": "fisglobal.com",
+    "career_url": "https://careers.fisglobal.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "fis:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Fidelity National Information Services"
+    ],
+    "industry": "Financial Technology & Processing",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-fiserv",
+    "name": "Fiserv",
+    "domain": "fiserv.com",
+    "career_url": "https://www.careers.fiserv.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "fiserv:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Fiserv India"
+    ],
+    "industry": "Payments & Financial Services Technology",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-fidelity",
+    "name": "Fidelity Investments",
+    "domain": "fidelity.com",
+    "career_url": "https://jobs.fidelity.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "fidelity:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "FMR India",
+      "Fidelity"
+    ],
+    "industry": "Asset Management & FinTech",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-flipkart",
+    "name": "Flipkart",
+    "domain": "flipkart.com",
+    "career_url": "https://www.flipkartcareers.com",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Flipkart Internet"
+    ],
+    "industry": "E-commerce & Logistics",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-walmart-global-tech",
+    "name": "Walmart Global Tech",
+    "domain": "walmart.com",
+    "career_url": "https://careers.walmart.com/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "workday",
+    "board_identifier": "walmart:External",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Walmart Labs India",
+      "Walmart Global Tech India"
+    ],
+    "industry": "Retail Tech & Cloud",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-phonepe",
+    "name": "PhonePe",
+    "domain": "phonepe.com",
+    "career_url": "https://www.phonepe.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "PhonePe India"
+    ],
+    "industry": "FinTech & Payments (UPI)",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-paytm",
+    "name": "Paytm",
+    "domain": "paytm.com",
+    "career_url": "https://jobs.lever.co/paytm",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "paytm",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "One97 Communications",
+      "Paytm Money"
+    ],
+    "industry": "FinTech & Digital Payments",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-razorpay",
+    "name": "Razorpay",
+    "domain": "razorpay.com",
+    "career_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "razorpaysoftwareprivatelimited",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Razorpay Software"
+    ],
+    "industry": "FinTech & Payment Gateway",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-meesho",
+    "name": "Meesho",
+    "domain": "meesho.com",
+    "career_url": "https://jobs.ashbyhq.com/meesho",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Remote"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "ashby",
+    "board_identifier": "meesho",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Fashnear Technologies"
+    ],
+    "industry": "Social E-commerce",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-swiggy",
+    "name": "Swiggy",
+    "domain": "swiggy.com",
+    "career_url": "https://careers.swiggy.com",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Bundl Technologies"
+    ],
+    "industry": "Food Delivery & Quick Commerce",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-zomato",
+    "name": "Zomato",
+    "domain": "zomato.com",
+    "career_url": "https://www.zomato.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Zomato Media"
+    ],
+    "industry": "Food Tech & Quick Commerce (Blinkit)",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-cred",
+    "name": "CRED",
+    "domain": "cred.ai",
+    "career_url": "https://cred.ai/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Dreamplug Technologies"
+    ],
+    "industry": "FinTech & Rewards",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-groww",
+    "name": "Groww",
+    "domain": "groww.in",
+    "career_url": "https://groww.in/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Nextbillion Technology"
+    ],
+    "industry": "WealthTech & Investments",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-zerodha",
+    "name": "Zerodha",
+    "domain": "zerodha.com",
+    "career_url": "https://zerodha.com/jobs",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Zerodha Broking"
+    ],
+    "industry": "Stockbroking & FinTech",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-freshworks",
+    "name": "Freshworks",
+    "domain": "freshworks.com",
+    "career_url": "https://www.freshworks.com/company/careers/",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "smartrecruiters",
+    "board_identifier": "Freshworks",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Freshdesk"
+    ],
+    "industry": "SaaS & Customer Engagement Software",
+    "size_band": "5001-10000"
+  },
+  {
+    "id": "company-zoho",
+    "name": "Zoho",
+    "domain": "zoho.com",
+    "career_url": "https://www.zoho.com/careers/",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Zoho Corporation"
+    ],
+    "industry": "Enterprise SaaS & Cloud Office",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-browserstack",
+    "name": "BrowserStack",
+    "domain": "browserstack.com",
+    "career_url": "https://job-boards.greenhouse.io/browserstack",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Remote",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "browserstack",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "BrowserStack India"
+    ],
+    "industry": "Developer Tools & Cloud Testing",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-postman",
+    "name": "Postman",
+    "domain": "postman.com",
+    "career_url": "https://job-boards.greenhouse.io/postman",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "US",
+      "Remote"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "postman",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Postman Inc"
+    ],
+    "industry": "API Platform & DevTools",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-chargebee",
+    "name": "Chargebee",
+    "domain": "chargebee.com",
+    "career_url": "https://jobs.lever.co/chargebee",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Remote",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "chargebee",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Chargebee Technologies"
+    ],
+    "industry": "Subscription Billing & FinTech SaaS",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-juspay",
+    "name": "Juspay",
+    "domain": "juspay.in",
+    "career_url": "https://juspay.in/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Juspay Technologies"
+    ],
+    "industry": "Payments Infrastructure & Functional Programming",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-dream11",
+    "name": "Dream11",
+    "domain": "dream11.in",
+    "career_url": "https://job-boards.greenhouse.io/dream11",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "dream11",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Dream Sports"
+    ],
+    "industry": "SportsTech & Gaming",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-makemytrip",
+    "name": "MakeMyTrip",
+    "domain": "makemytrip.com",
+    "career_url": "https://careers.makemytrip.com/",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "MMT",
+      "Goibibo"
+    ],
+    "industry": "Online Travel & Hospitality",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-zepto",
+    "name": "Zepto",
+    "domain": "zeptonow.com",
+    "career_url": "https://www.zeptonow.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.674Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Kiranakart Technologies"
+    ],
+    "industry": "Quick Commerce & Logistics",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-urban-company",
+    "name": "Urban Company",
+    "domain": "urbancompany.com",
+    "career_url": "https://careers.urbancompany.com",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.675Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "UrbanClap"
+    ],
+    "industry": "Home Services Tech",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-delhivery",
+    "name": "Delhivery",
+    "domain": "delhivery.com",
+    "career_url": "https://www.delhivery.com/careers/",
+    "country": "IN",
+    "hiring_regions": [
+      "India"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": "custom_portal",
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.675Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Delhivery Logistics"
+    ],
+    "industry": "Supply Chain & Logistics Tech",
+    "size_band": "10000+"
+  },
+  {
+    "id": "company-inmobi",
+    "name": "InMobi",
+    "domain": "inmobi.com",
+    "career_url": "https://jobs.lever.co/inmobi",
+    "country": "IN",
+    "hiring_regions": [
+      "India",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "inmobi",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.675Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Glance",
+      "InMobi Technology Services"
+    ],
+    "industry": "AdTech & Content Platforms",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-hasura",
+    "name": "Hasura",
+    "domain": "hasura.io",
+    "career_url": "https://jobs.lever.co/hasura",
+    "country": "US",
+    "hiring_regions": [
+      "India",
+      "Remote",
+      "Global"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "hasura",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.675Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Hasura Inc"
+    ],
+    "industry": "GraphQL & Developer Tools",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-anthropic",
+    "name": "Anthropic",
+    "domain": "anthropic.com",
+    "career_url": "https://job-boards.greenhouse.io/anthropic",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "anthropic",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "APPROVED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Anthropic PBC"
+    ],
+    "industry": "AI/ML",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-palantir",
+    "name": "Palantir",
+    "domain": "palantir.com",
+    "career_url": "https://jobs.lever.co/palantir",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "palantir",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "APPROVED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Palantir Technologies"
+    ],
+    "industry": "Enterprise Software",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-elevenlabs",
+    "name": "ElevenLabs",
+    "domain": "elevenlabs.io",
+    "career_url": "https://jobs.ashbyhq.com/elevenlabs",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "ashby",
+    "board_identifier": "elevenlabs",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "APPROVED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Eleven Labs Inc"
+    ],
+    "industry": "AI/ML",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-contentful",
+    "name": "Contentful",
+    "domain": "contentful.com",
+    "career_url": "https://job-boards.greenhouse.io/contentful",
+    "country": "DE",
+    "hiring_regions": [
+      "DE"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "contentful",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "APPROVED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Contentful GmbH"
+    ],
+    "industry": "SaaS",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-planetscale",
+    "name": "PlanetScale",
+    "domain": "planetscale.com",
+    "career_url": "https://job-boards.greenhouse.io/planetscale",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "planetscale",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "APPROVED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "PlanetScale Inc"
+    ],
+    "industry": "Cloud/Infra",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-brevo",
+    "name": "Brevo",
+    "domain": "brevo.com",
+    "career_url": "https://job-boards.greenhouse.io/brevo",
+    "country": "FR",
+    "hiring_regions": [
+      "FR"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "brevo",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "APPROVED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Sendinblue",
+      "Brevo SAS"
+    ],
+    "industry": "SaaS",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-blinkit",
+    "name": "Blinkit",
+    "domain": "blinkit.com",
+    "career_url": "https://blinkit.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Grofers",
+      "Blink Commerce Pvt Ltd"
+    ],
+    "industry": "E-Commerce",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-rapido",
+    "name": "Rapido",
+    "domain": "rapido.bike",
+    "career_url": "https://www.rapido.bike/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Roppen Transportation Services"
+    ],
+    "industry": "Mobility",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-clevertap",
+    "name": "CleverTap",
+    "domain": "clevertap.com",
+    "career_url": "https://clevertap.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "WizRocket Technologies"
+    ],
+    "industry": "SaaS",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-darwinbox",
+    "name": "Darwinbox",
+    "domain": "darwinbox.com",
+    "career_url": "https://darwinbox.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Darwinbox Digital Solutions"
+    ],
+    "industry": "SaaS",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-appsmith",
+    "name": "Appsmith",
+    "domain": "appsmith.com",
+    "career_url": "https://www.appsmith.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Appsmith Inc"
+    ],
+    "industry": "DevTools",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-signoz",
+    "name": "SigNoz",
+    "domain": "signoz.io",
+    "career_url": "https://signoz.io/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "SigNoz Inc"
+    ],
+    "industry": "DevTools",
+    "size_band": "1-50"
+  },
+  {
+    "id": "company-hoppscotch",
+    "name": "Hoppscotch",
+    "domain": "hoppscotch.io",
+    "career_url": "https://hoppscotch.io/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Hoppscotch Inc"
+    ],
+    "industry": "DevTools",
+    "size_band": "1-50"
+  },
+  {
+    "id": "company-lambdatest",
+    "name": "LambdaTest",
+    "domain": "lambdatest.com",
+    "career_url": "https://www.lambdatest.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "LambdaTest Inc"
+    ],
+    "industry": "DevTools",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-hackerrank",
+    "name": "HackerRank",
+    "domain": "hackerrank.com",
+    "career_url": "https://www.hackerrank.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "hackerrank",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "InterviewStreet Technologies"
+    ],
+    "industry": "DevTools",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-pine-labs",
+    "name": "Pine Labs",
+    "domain": "pinelabs.com",
+    "career_url": "https://www.pinelabs.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Pine Labs Pvt Ltd"
+    ],
+    "industry": "Fintech",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-setu",
+    "name": "Setu",
+    "domain": "setu.co",
+    "career_url": "https://setu.co/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Setu Payments"
+    ],
+    "industry": "Fintech",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-cashfree",
+    "name": "Cashfree Payments",
+    "domain": "cashfree.com",
+    "career_url": "https://www.cashfree.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Cashfree Payments India"
+    ],
+    "industry": "Fintech",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-sarvam-ai",
+    "name": "Sarvam AI",
+    "domain": "sarvam.ai",
+    "career_url": "https://www.sarvam.ai/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Sarvam AI Pvt Ltd"
+    ],
+    "industry": "AI/ML",
+    "size_band": "1-50"
+  },
+  {
+    "id": "company-ather-energy",
+    "name": "Ather Energy",
+    "domain": "atherenergy.com",
+    "career_url": "https://www.atherenergy.com/careers",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Ather Energy Limited"
+    ],
+    "industry": "EV/Automotive",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-shopify",
+    "name": "Shopify",
+    "domain": "shopify.com",
+    "career_url": "https://www.shopify.com/careers",
+    "country": "CA",
+    "hiring_regions": [
+      "CA"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Shopify Inc"
+    ],
+    "industry": "E-Commerce",
+    "size_band": "5000+"
+  },
+  {
+    "id": "company-stripe",
+    "name": "Stripe",
+    "domain": "stripe.com",
+    "career_url": "https://stripe.com/jobs",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Stripe Inc"
+    ],
+    "industry": "Fintech",
+    "size_band": "5000+"
+  },
+  {
+    "id": "company-gitlab",
+    "name": "GitLab",
+    "domain": "gitlab.com",
+    "career_url": "https://about.gitlab.com/jobs/",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "gitlab",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "GitLab Inc"
+    ],
+    "industry": "DevTools",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-cloudflare",
+    "name": "Cloudflare",
+    "domain": "cloudflare.com",
+    "career_url": "https://www.cloudflare.com/careers/",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "cloudflare",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Cloudflare Inc"
+    ],
+    "industry": "Cloud/Infra",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-datadog",
+    "name": "Datadog",
+    "domain": "datadoghq.com",
+    "career_url": "https://www.datadoghq.com/careers/",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "datadog",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Datadog Inc"
+    ],
+    "industry": "Cloud/Infra",
+    "size_band": "5000+"
+  },
+  {
+    "id": "company-snowflake",
+    "name": "Snowflake",
+    "domain": "snowflake.com",
+    "career_url": "https://careers.snowflake.com",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Snowflake Inc"
+    ],
+    "industry": "Cloud/Infra",
+    "size_band": "5000+"
+  },
+  {
+    "id": "company-supabase",
+    "name": "Supabase",
+    "domain": "supabase.com",
+    "career_url": "https://supabase.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Supabase Inc"
+    ],
+    "industry": "DevTools",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-vercel",
+    "name": "Vercel",
+    "domain": "vercel.com",
+    "career_url": "https://job-boards.greenhouse.io/vercel",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "greenhouse",
+    "board_identifier": "vercel",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Vercel Inc"
+    ],
+    "industry": "DevTools",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-workos",
+    "name": "WorkOS",
+    "domain": "workos.com",
+    "career_url": "https://workos.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "WorkOS Inc"
+    ],
+    "industry": "SaaS",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-zapier",
+    "name": "Zapier",
+    "domain": "zapier.com",
+    "career_url": "https://zapier.com/jobs",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Zapier Inc"
+    ],
+    "industry": "SaaS",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-n8n",
+    "name": "n8n",
+    "domain": "n8n.io",
+    "career_url": "https://n8n.io/careers/",
+    "country": "DE",
+    "hiring_regions": [
+      "DE"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "n8n GmbH"
+    ],
+    "industry": "DevTools",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-airtable",
+    "name": "Airtable",
+    "domain": "airtable.com",
+    "career_url": "https://airtable.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Formagrid Inc"
+    ],
+    "industry": "SaaS",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-celonis",
+    "name": "Celonis",
+    "domain": "celonis.com",
+    "career_url": "https://www.celonis.com/careers/",
+    "country": "DE",
+    "hiring_regions": [
+      "DE"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Celonis SE"
+    ],
+    "industry": "Enterprise Software",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-intercom",
+    "name": "Intercom",
+    "domain": "intercom.com",
+    "career_url": "https://www.intercom.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Intercom Inc"
+    ],
+    "industry": "SaaS",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-openai",
+    "name": "OpenAI",
+    "domain": "openai.com",
+    "career_url": "https://openai.com/careers/",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "OpenAI OpCo LLC"
+    ],
+    "industry": "AI/ML",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-cohere",
+    "name": "Cohere",
+    "domain": "cohere.com",
+    "career_url": "https://jobs.lever.co/cohere",
+    "country": "CA",
+    "hiring_regions": [
+      "CA"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "cohere",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Cohere Inc"
+    ],
+    "industry": "AI/ML",
+    "size_band": "201-500"
+  },
+  {
+    "id": "company-mistral-ai",
+    "name": "Mistral AI",
+    "domain": "mistral.ai",
+    "career_url": "https://jobs.lever.co/mistral",
+    "country": "FR",
+    "hiring_regions": [
+      "FR"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "mistral",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Mistral AI SAS"
+    ],
+    "industry": "AI/ML",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-perplexity",
+    "name": "Perplexity",
+    "domain": "perplexity.ai",
+    "career_url": "https://www.perplexity.ai/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Perplexity AI Inc"
+    ],
+    "industry": "AI/ML",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-glean",
+    "name": "Glean",
+    "domain": "glean.com",
+    "career_url": "https://www.glean.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Glean Technologies Inc"
+    ],
+    "industry": "AI/ML",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-pinecone",
+    "name": "Pinecone",
+    "domain": "pinecone.io",
+    "career_url": "https://www.pinecone.io/careers/",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Pinecone Systems Inc"
+    ],
+    "industry": "AI/ML",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-langchain",
+    "name": "LangChain",
+    "domain": "langchain.com",
+    "career_url": "https://www.langchain.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "LangChain Inc"
+    ],
+    "industry": "AI/ML",
+    "size_band": "1-50"
+  },
+  {
+    "id": "company-deepl",
+    "name": "DeepL",
+    "domain": "deepl.com",
+    "career_url": "https://jobs.lever.co/deepl",
+    "country": "DE",
+    "hiring_regions": [
+      "DE"
+    ],
+    "career_page_type": "ats_hosted",
+    "ats_type": "lever",
+    "board_identifier": "deepl",
+    "fetch_mode": "api",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "DeepL SE"
+    ],
+    "industry": "AI/ML",
+    "size_band": "501-1000"
+  },
+  {
+    "id": "company-deepgram",
+    "name": "Deepgram",
+    "domain": "deepgram.com",
+    "career_url": "https://deepgram.com/careers",
+    "country": "US",
+    "hiring_regions": [
+      "US"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Deepgram Inc"
+    ],
+    "industry": "AI/ML",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-synthesia",
+    "name": "Synthesia",
+    "domain": "synthesia.io",
+    "career_url": "https://www.synthesia.io/careers",
+    "country": "UK",
+    "hiring_regions": [
+      "UK"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Synthesia Limited"
+    ],
+    "industry": "AI/ML",
+    "size_band": "201-500"
+  },
+  {
+    "id": "company-stability-ai",
+    "name": "Stability AI",
+    "domain": "stability.ai",
+    "career_url": "https://stability.ai/careers",
+    "country": "UK",
+    "hiring_regions": [
+      "UK"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Stability AI Ltd"
+    ],
+    "industry": "AI/ML",
+    "size_band": "51-200"
+  },
+  {
+    "id": "company-uber-india",
+    "name": "Uber India",
+    "domain": "uber.com",
+    "career_url": "https://www.uber.com/us/en/careers/",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Uber India Systems"
+    ],
+    "industry": "Mobility",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-intuit-india",
+    "name": "Intuit India",
+    "domain": "intuit.com",
+    "career_url": "https://www.intuit.com/careers/",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Intuit Technology Services"
+    ],
+    "industry": "Fintech",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-paypal-india",
+    "name": "PayPal India",
+    "domain": "paypal.com",
+    "career_url": "https://careers.pypl.com",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "PayPal India Pvt Ltd"
+    ],
+    "industry": "Fintech",
+    "size_band": "5000+"
+  },
+  {
+    "id": "company-jpmorgan-india",
+    "name": "JPMorgan India",
+    "domain": "jpmorgan.com",
+    "career_url": "https://careers.jpmorgan.com",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "JPMorgan Services India"
+    ],
+    "industry": "Fintech",
+    "size_band": "5000+"
+  },
+  {
+    "id": "company-apple-india",
+    "name": "Apple India",
+    "domain": "apple.com",
+    "career_url": "https://www.apple.com/careers/in/",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Apple India Pvt Ltd"
+    ],
+    "industry": "Consumer Tech",
+    "size_band": "1001-5000"
+  },
+  {
+    "id": "company-meta-india",
+    "name": "Meta India",
+    "domain": "meta.com",
+    "career_url": "https://www.metacareers.com",
+    "country": "IN",
+    "hiring_regions": [
+      "IN"
+    ],
+    "career_page_type": "custom_portal",
+    "ats_type": null,
+    "board_identifier": null,
+    "fetch_mode": "html_crawler",
+    "access_restrictions": "public",
+    "verification_status": "VERIFIED",
+    "last_checked_at": "2026-11-15T08:09:13.679Z",
+    "last_successful_ingestion_at": null,
+    "aliases": [
+      "Facebook India Online Services"
+    ],
+    "industry": "Internet & Social",
+    "size_band": "1001-5000"
+  }
+]

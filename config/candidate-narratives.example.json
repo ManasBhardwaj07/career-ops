@@ -1,0 +1,399 @@
+{
+  "projectNarratives": {
+    "example_project": {
+      "key": "example_project",
+      "title": "[Example Project Title]",
+      "domain": "backend/full-stack",
+      "tech": [
+        "Language",
+        "Framework",
+        "Database"
+      ],
+      "problem": "[Describe the engineering problem or business challenge addressed by this project.]",
+      "approach": "[Describe the technical architecture, patterns, and tools used to solve it.]",
+      "tradeoff": "[Describe a deliberate engineering trade-off made during development.]",
+      "result": "[Describe the concrete, measurable outcome or performance metric achieved.]",
+      "formattedStar": "Problem: [Problem description].\nApproach: [Technical approach].\nTrade-off: [Engineering trade-off].\nResult: [Measurable outcome]."
+    }
+  },
+  "canonicalAnswerTemplates": [
+    {
+      "intent_key": "tell_me_about_yourself",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "I am a [Target Role] specializing in [Core Domain] with experience in [Key Technologies]. I focus on [Core Strengths] and delivering reliable software.",
+      "sensitive": false,
+      "source_fact_refs": ["cv.md:SUMMARY"],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "tell_me_about_yourself",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "I am a software engineer specializing in [Specialty Area]. Over my career at [Company/Projects], I have designed and delivered [System Description] using [Tech Stack]. My technical focus centers on [Focus Area 1] and [Focus Area 2].",
+      "sensitive": false,
+      "source_fact_refs": ["cv.md:SUMMARY"],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "tell_me_about_yourself",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "I am a software engineer specializing in [Specialty Area]. Over my career at [Company/Projects], I have designed and delivered [System Description] using [Tech Stack]. My technical focus centers on [Focus Area 1], [Focus Area 2], and [Focus Area 3]. In my most recent work, I [Key Accomplishment].",
+      "sensitive": false,
+      "source_fact_refs": ["cv.md:SUMMARY"],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "message_to_hiring_team",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "Excited to apply for this role. My background in [Key Skill 1] and [Key Skill 2] matches the team's needs well.",
+      "sensitive": false,
+      "source_fact_refs": ["cv.md:SUMMARY"],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "message_to_hiring_team",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "I am applying for the [Role Title] position. My technical focus in [Tech Stack] and background building [Domain Systems] aligns directly with the requirements of this opening.",
+      "sensitive": false,
+      "source_fact_refs": ["cv.md:SUMMARY"],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "message_to_hiring_team",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "I am writing to express my strong interest in the [Role Title] position. Having worked on [System Description] with [Key Technologies], I am confident in my ability to contribute immediately to the team's goals.",
+      "sensitive": false,
+      "source_fact_refs": ["cv.md:SUMMARY"],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "why_company",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "I admire your team's work in [Domain/Product] and want to contribute my engineering background to solving these scale challenges.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "why_company",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "I am drawn to your mission of [Company Mission]. The engineering problems you are tackling in [Domain/Area] align closely with my experience building [Relevant Systems].",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "why_company",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "Your company stands out for its leadership in [Industry/Domain]. I am motivated by your commitment to [Values/Goals] and believe my background in [Tech Stack] will allow me to make an impact.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "why_role",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "This role matches my core skills in [Technologies] and my goal to build reliable, high-performance systems.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "why_role",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "The [Role Title] position offers the right intersection of [Skill Area 1] and [Skill Area 2]. I look forward to taking ownership of key services and collaborating with cross-functional teams.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "why_role",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "The responsibilities described for this role reflect the type of engineering problems I enjoy solving most: [Key Problem 1] and [Key Problem 2]. My experience with [Tech Stack] positions me to add value from day one.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "best_work",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "My proudest work was building [Project Name], where I designed [Key Feature] using [Tech Stack] to achieve [Key Metric].",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "best_work",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "In [Project Name], I tackled [Problem Description]. By architecting [System Pattern] using [Tech Stack], I achieved [Measurable Outcome] while making deliberate trade-offs for maintainability.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "best_work",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "My best engineering project was [Project Name]. When faced with [Challenge], I architected a solution using [Tech Stack]. We balanced [Trade-off], ultimately delivering [Quantifiable Outcome].",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "cover_letter",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "Dear Hiring Team, I am writing to apply for the [Role Title] role. With experience in [Core Skills], I look forward to discussing how I can contribute.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "cover_letter",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "Dear Hiring Team,\n\nI am excited to submit my application for the [Role Title] position. Over the course of my engineering work at [Company/Projects], I have developed strong proficiencies in [Tech Stack]. I am particularly drawn to your team's focus on [Focus Area] and look forward to contributing to your continued growth.\n\nBest regards,\n[Your Name]",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "cover_letter",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "Dear Hiring Team,\n\nI am writing to express my enthusiastic interest in the [Role Title] opening. Throughout my career, I have focused on building resilient systems with [Tech Stack]. At [Company/Project], I led the development of [System Description], improving [Key Metric].\n\nI believe my technical background and problem-solving approach make me a strong fit for your team. Thank you for your time and consideration.\n\nSincerely,\n[Your Name]",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "availability_date",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "Available to start immediately upon offer.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "availability_date",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "I am available to join within [Notice Period, e.g. immediately or 2 weeks] following an offer letter.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "availability_date",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "I am available to begin work within [Notice Period]. I am prepared to complete any onboarding requirements smoothly.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "notice_period",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "[Your Notice Period, e.g. Immediate joiner / 15 days / 30 days].",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "notice_period",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "My notice period is [Notice Period]. I can transition smoothly and begin on mutually agreed dates.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "notice_period",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "I have a notice period of [Notice Period]. If needed, I can coordinate with my current commitments for an early release.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "current_ctc",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "[Your current compensation / Confidential]",
+      "sensitive": true,
+      "source_fact_refs": [],
+      "confirmed_by_user": false
+    },
+    {
+      "intent_key": "current_ctc",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "My current compensation details are confidential and can be discussed during later interview rounds.",
+      "sensitive": true,
+      "source_fact_refs": [],
+      "confirmed_by_user": false
+    },
+    {
+      "intent_key": "current_ctc",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "My current compensation details are available upon request and discussion with the hiring manager.",
+      "sensitive": true,
+      "source_fact_refs": [],
+      "confirmed_by_user": false
+    },
+    {
+      "intent_key": "expected_ctc",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "[Your expected compensation, e.g. Competitive / Negotiable]",
+      "sensitive": true,
+      "source_fact_refs": [],
+      "confirmed_by_user": false
+    },
+    {
+      "intent_key": "expected_ctc",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "My salary expectations are aligned with industry standards for this level and are open to discussion based on the total compensation package.",
+      "sensitive": true,
+      "source_fact_refs": [],
+      "confirmed_by_user": false
+    },
+    {
+      "intent_key": "expected_ctc",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "I am seeking a competitive compensation package commensurate with the market rate for this role and location. I am flexible and open to discussing the structure.",
+      "sensitive": true,
+      "source_fact_refs": [],
+      "confirmed_by_user": false
+    },
+    {
+      "intent_key": "relocate",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "Open to relocation for the right opportunity.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "relocate",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "I am open to relocating to [Preferred Locations] and am comfortable working in remote or hybrid setups.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "relocate",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "I am willing to relocate to support the team on-site. I am also fully equipped for high-performance remote work.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "work_auth",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "Authorized to work in [Your Country] without sponsorship.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "work_auth",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "I hold full work authorization for [Your Country] and do not require employer visa sponsorship.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "work_auth",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "I am a citizen of [Your Country] and authorized to work legally without requiring any employment visa sponsorship.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "total_experience",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "[X years / months] of relevant engineering experience.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "total_experience",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "I have [X years / months] of experience developing software systems with [Primary Technologies].",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "total_experience",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "Over the past [X years / months], I have worked across the stack with [Key Technologies], focusing on backend architecture and API design.",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "portfolio_links",
+      "variant_length": "short",
+      "char_limit": 250,
+      "content": "GitHub: https://github.com/[username] | Portfolio: https://[portfolio-domain]",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "portfolio_links",
+      "variant_length": "medium",
+      "char_limit": 1000,
+      "content": "GitHub: https://github.com/[username]\nLinkedIn: https://linkedin.com/in/[profile]\nPortfolio: https://[portfolio-domain]",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    },
+    {
+      "intent_key": "portfolio_links",
+      "variant_length": "long",
+      "char_limit": 2000,
+      "content": "Technical profiles and portfolio:\n- GitHub: https://github.com/[username]\n- LinkedIn: https://linkedin.com/in/[profile]\n- Portfolio: https://[portfolio-domain]",
+      "sensitive": false,
+      "source_fact_refs": [],
+      "confirmed_by_user": true
+    }
+  ]
+}

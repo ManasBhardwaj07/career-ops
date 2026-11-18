@@ -35,7 +35,8 @@ mkdirSync(REPORTS_DIR, { recursive: true });
 
 const CANONICAL_STATUSES = [
   'evaluated', 'applied', 'responded', 'interview',
-  'offer', 'rejected', 'discarded', 'skip',
+  'offer', 'rejected', 'discarded', 'skip', 'withdrawn',
+  'needs_user_input', 'uncertain_outcome'
 ];
 
 const ALIASES = {
@@ -47,6 +48,9 @@ const ALIASES = {
   'rechazado': 'rejected', 'rechazada': 'rejected',
   'descartado': 'discarded', 'descartada': 'discarded', 'cerrada': 'discarded', 'cancelada': 'discarded',
   'no aplicar': 'skip', 'no_aplicar': 'skip', 'monitor': 'skip', 'geo blocker': 'skip',
+  'withdrawn': 'withdrawn', 'retirado': 'withdrawn', 'retirada': 'withdrawn',
+  'needs input': 'needs_user_input', 'needs_input': 'needs_user_input', 'needs_user_input': 'needs_user_input',
+  'uncertain': 'uncertain_outcome', 'uncertain_outcome': 'uncertain_outcome'
 };
 
 let errors = 0;

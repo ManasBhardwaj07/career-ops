@@ -22,6 +22,11 @@ writing-samples/*
 
 # User config and customization (never auto-updated)
 config/profile.yml
+config/autofill-profile.yml
+config/candidate-narratives.json
+config/candidate-facts-corpus.json
+config/candidate-skill-registry.json
+config/*.tex
 portals.yml
 modes/_profile.md
 .update-dismissed
@@ -40,8 +45,57 @@ bun.lock
 *.mov
 *.mp4
 
+# SQLite databases (runtime state, not source)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.db-*
+data/**/*.db
+data/**/*.db-shm
+data/**/*.db-wal
+data/**/*.db-*
+data/backup/
+data/runs/
+data/tectonic_cache/
+data/sessions/
+data/vault/
+.runner.lock
+data/*.lock
+data/**/*.lock
+
+# Ephemeral scratch directory
+scratch/
+!scratch/architecture_map.json
+
+# Database backups
+backups/
+
+# Generated PDFs
+reports/*.pdf
+
 # Claude Code local
 .claude/settings.local.json
 .claude/memory/
 career-dashboard
 package-lock.json
+data/browser_profile/
+
+# Candidate-specific operational scripts & tests (local only)
+scripts/live-dry-runs.mjs
+test-final-corrections.mjs
+tests/final-handover-audit.mjs
+tests/test-bounded-discovery.mjs
+tests/test-consecutive-rotation.mjs
+
+# Candidate-specific audit, forensics, and handover reports (local only)
+D1-HYGIENE.md
+D4-CLOSURES.md
+MIGRATION-RECONCILIATION.md
+TEST-ISOLATION.md
+docs/AUDIT-REPORT.md
+docs/CAREER-OPS-PROJECT-STATE.md
+docs/CLEANUP_DELETION_MANIFEST.md
+docs/FINALIZATION_PROGRESS.md
+docs/TEST-ISOLATION-REPORT.md
+docs/audit-modification-forensics.md
+docs/orchestrator-acceptance-audit.md

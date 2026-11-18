@@ -54,3 +54,54 @@ states:
     aliases: [no_aplicar, no aplicar, skip, monitor]
     description: Doesn't fit, don't apply
     dashboard_group: skip
+
+  - id: withdrawn
+    label: Withdrawn
+    aliases: [retirado, retirada, withdrawn]
+    description: Application withdrawn by candidate
+    dashboard_group: discarded
+
+# ── Milestone 3E Canonical Separation ──────────────────────────────
+# Execution Lifecycle (Technical engine state in applications.state)
+execution_lifecycle:
+  - id: not_started
+    label: NOT_STARTED
+  - id: drafting
+    label: DRAFTING
+  - id: portal_opened
+    label: PORTAL_OPENED
+  - id: form_filling
+    label: FORM_FILLING
+  - id: needs_user_input
+    label: NEEDS_USER_INPUT
+  - id: authentication_required
+    label: AUTHENTICATION_REQUIRED
+  - id: ready_for_review
+    label: READY_FOR_REVIEW
+  - id: submission_approved
+    label: SUBMISSION_APPROVED
+  - id: submitting
+    label: SUBMITTING
+  - id: confirmed
+    label: CONFIRMED
+  - id: uncertain_outcome
+    label: UNCERTAIN_OUTCOME
+
+# Recruitment Outcomes (Post-submission state in applications.recruitment_outcome)
+recruitment_outcomes:
+  - id: applied
+    label: APPLIED
+  - id: responded
+    label: RESPONDED
+  - id: interview
+    label: INTERVIEW
+  - id: offer
+    label: OFFER
+  - id: rejected
+    label: REJECTED
+  - id: withdrawn
+    label: WITHDRAWN
+  - id: discarded
+    label: DISCARDED
+  - id: skip
+    label: SKIP
